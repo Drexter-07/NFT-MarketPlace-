@@ -98,11 +98,11 @@ async function connectWebsite() {
               }
               {location.pathname === "/sellNFT" ? 
               <li className='border-b-2 hover:pb-0 p-2'>
-                <Link to="/sellNFT">List My Property</Link>
+                <Link to="/sellNFT">List My NFT</Link>
               </li>
               :
               <li className='hover:border-b-2 hover:pb-0 p-2'>
-                <Link to="/sellNFT">List My Property</Link>
+                <Link to="/sellNFT">List My NFT</Link>
               </li>              
               }              
               {location.pathname === "/profile" ? 
